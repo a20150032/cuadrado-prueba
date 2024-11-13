@@ -1,0 +1,13 @@
+document.write("<h1>Ejercicio 03</h1>");
+document.write("<h3>Area y Perimetro Del Cuadrado<h3>");
+var lado = parseInt(prompt("Ingrese el lado del cuadrado"));
+var area = lado * lado;
+var perimetro = lado * 4;
+document.write("El lado del cuadrado es: " + lado);
+document.write("<br>");
+document.write("El area del cuadrado es: " + area);
+document.write("<br>");
+document.write("El perimetro del cuadrado es: " + perimetro);
+document.write("<br>");
+document.write("<br>");
+document.write("<h5>La aplicacion fue creada por: Alvaro Diez</h5>");
